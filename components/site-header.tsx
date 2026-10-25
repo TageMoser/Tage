@@ -13,7 +13,7 @@ export function SiteHeader() {
         <a href="#top" className="flex items-center gap-2.5">
           <BrandMark className="h-6 w-6 text-brand" />
           <span className="text-lg font-semibold tracking-tight">
-            Vilia<span className="text-hero-muted"> Medical</span>
+            Verdan<span className="text-hero-muted"> Medical</span>
           </span>
         </a>
 

@@ -10,26 +10,27 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Vilia Medical — Kontinuerlig trykkmåling som forebygger liggesår',
+  title: 'Verdan Medical — Kontinuerlig trykkmåling som forebygger liggesår',
   description:
     'SmartMat er en tynn, forseglet trykksensor-matte som kartlegger trykk over hundrevis av punkter i sanntid, og gjør forebygging av liggesår om fra en manuell snurutine til en proaktiv, varselstyrt arbeidsflyt.',
   generator: 'v0.app',
+  openGraph: {
+    title: 'Verdan Medical — Kontinuerlig trykkmåling som forebygger liggesår',
+    description:
+      'SmartMat er en tynn, forseglet trykksensor-matte som kartlegger trykk over hundrevis av punkter i sanntid, og gjør forebygging av liggesår om fra en manuell snurutine til en proaktiv, varselstyrt arbeidsflyt.',
+    siteName: 'Verdan Medical',
+    locale: 'nb_NO',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Verdan Medical — Kontinuerlig trykkmåling som forebygger liggesår',
+    description:
+      'SmartMat er en tynn, forseglet trykksensor-matte som kartlegger trykk over hundrevis av punkter i sanntid.',
+  },
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/icon.svg',
+    apple: '/icon.svg',
   },
 }
 

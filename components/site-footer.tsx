@@ -39,7 +39,7 @@ export function SiteFooter() {
         <div className="flex items-center gap-2.5">
           <BrandMark className="h-5 w-5 text-brand" />
           <span className="font-semibold tracking-tight text-ink">
-            Vilia Medical
+            Verdan Medical
           </span>
         </div>
         <p className="max-w-md text-sm text-muted-foreground">
@@ -47,7 +47,7 @@ export function SiteFooter() {
           klinisk skjønn eller etablerte snurutiner.
         </p>
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Vilia Medical
+          © {new Date().getFullYear()} Verdan Medical
         </p>
       </div>
     </footer>
